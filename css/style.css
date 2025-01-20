@@ -1,0 +1,530 @@
+/* CSS Global */
+* {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    font-family: 'Open Sans';
+}
+
+h1 {
+    font-family: 'Kanit';
+    font-weight: 600;
+    font-size: 53px;
+}
+
+h2 {
+    font-family: 'Kanit';
+}
+
+p {
+    font-family: 'Open Sans';
+}
+
+.buttonorangeandwhite {
+    background-color: transparent;
+    color: #F17124;
+    display: inline-block;
+    padding: 10px 25px;
+    width: fit-content;
+    text-decoration: none;
+    border: 1px solid #F17124;
+    border-radius: 30px;
+    font-family: 'Kanit';
+    font-weight: 400;
+    font-size: 21px;
+    margin-top: 50px;
+}
+
+.buttonorangeandwhite:hover {
+    color: white;
+    background: linear-gradient(to right, #F17124, #fdcb67);
+}
+
+.buttonwhiteandorange {
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 25px;
+    width: fit-content;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-family: 'Kanit';
+    font-weight: 400;
+    font-size: 21px;   
+    margin-top: 50px;
+}
+
+.buttonwhiteandorange:hover {
+    background: #F17124;
+}
+
+.uppercaseandorange {
+    text-transform: uppercase;
+    color: #F17124;
+}
+
+.minusucleandorange {
+    text-transform: lowercase;
+}
+
+.colororange {
+    color: #F17124;
+}
+/* FIN CSS Global */
+
+/* Début CSS Header */
+header {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header nav a {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    color: #F17124;
+}
+
+.logo {
+    max-width: 130px;
+}
+
+.burger-icon {
+    visibility: hidden;
+}
+
+/* FIN CSS Header */
+
+/* Début CSS Main */
+/* Début CSS Section 1 */
+
+#section1 {
+    width: 100%;
+    background-color: #FAFAFA;
+}
+
+#section1>div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+    margin: auto;
+    max-width: 1440px;
+    padding-top: 150px;
+    padding: 10px 10px;
+}
+
+#section1 img {
+    max-width: 700px;
+}
+
+#section1 p {
+    max-width: 522px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+/* FIN CSS Section 1 */
+
+/* Début CSS Section 2*/
+
+#section2 {
+    max-width: 1920px;
+}
+
+#section2 p {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 37px;
+}
+
+.logobanniere {
+    display: flex;
+    margin: auto;
+    max-width: 348px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#section2 div {
+    background-color: #F17124;
+    ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#section2 p {
+    color: white;
+    text-align: center;
+    max-width: 1168px;
+    margin: auto;
+}
+/* FIN CSS Section 2 */
+
+/* Début CSS Section 3 */
+#section3 {
+    max-width: 1440px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    gap: 20px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#section3 article {
+    max-width: 390px;
+}
+
+#section3 h2 {
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 47px;
+    text-transform: uppercase;
+    color: #F17124;
+    padding-top: 80px;
+    padding-left: 65px;
+}
+
+#uppercaseandorange01, #uppercaseandorange02, #uppercaseandorange03 {
+    background-repeat: no-repeat;
+}
+
+#uppercaseandorange01 {
+    background-image: url(../img/01.png);
+}
+
+#uppercaseandorange01 p {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+#uppercaseandorange02 {
+    background-image: url(../img/02.png);
+}
+
+#uppercaseandorange02 p {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+#uppercaseandorange03 {
+    background-image: url(../img/03.png);
+}
+
+#uppercaseandorange03 p {
+    padding-left: 50px;
+    margin-top: 3px;
+}
+
+/* Fin CSS Section 3 */
+
+/* Début CSS Section 4 */
+
+#section4 {
+    background-image: url(../img/image_background.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    height: 482px;
+    display: flex;
+    align-items: center;
+}
+
+.divopacity {
+    background-color: rgb(127, 127, 127, 0.4);
+    width: 1920px;
+    margin: auto;
+    height: 482px;
+    display: flex;
+    align-items: center;
+}
+
+#section4 article {
+    width: 470px ;
+    color: white;
+    max-width: 1440px;
+    padding-left: 230px;
+}
+
+#section4 p {
+    font-weight: 400;
+    font-size: 24px;
+}
+/* Fin CSS Section 4 */
+
+/* Début CSS Section 5 */
+#section5 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 1440px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+    gap: 40px; 
+}
+
+#section5 h2 {
+    font-size: 31px;
+}
+
+#section5 form {
+    max-width: 745px;
+    background-color: #343A40;
+    padding: 20px;
+    color: white;
+}
+
+#section5 h2 {
+    padding-bottom: 20px;
+}
+
+#section5 form>div {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: grid;
+}
+
+#section5 form>div>input {
+    min-height: 22px;
+}
+
+#section5 form>div>input,textarea {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 23px;
+    border: 1px solid white;
+    background-color: #343A40;
+} 
+
+#section5 form>div>textarea {
+    min-height: 40px;
+    height: 200px;
+} 
+
+#section5 label {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 24px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+
+#section5 label>input {
+    margin-right: 10px;
+}
+
+#section5 input::placeholder {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+#section5 textarea::placeholder {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+#section5 article {
+    max-width: 620px;
+    background-color: #343A40;
+    padding: 10px;
+    color: #C9C9C9;
+    max-height: fit-content;
+    padding: 20px;
+}
+
+#section5 article div {
+    padding: 20px 0px;
+}
+
+#section5 article h3 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+}
+
+.porange {
+    color: #F17124;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+}
+
+.aorange {
+    color: #F17124;
+    font-size: 20px;
+}
+
+#section5 article p,h3,h4,a {
+    padding: 5px 0px;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+
+.aorange {
+    text-decoration: none;
+}
+/* Fin CSS Section 5 */
+
+/* FIN CSS Main */
+
+/* Début CSS Footer */
+footer {
+    text-align: center;
+    background-color: #EFEFEF;
+    text-align: center;
+    color: #F17124;
+    padding: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #F17124;
+}
+/* Fin CSS Footer */
+
+
+/* CSS a partir de 1024 */
+
+@media only screen and (max-width: 1037px) {
+
+    #uppercaseandorange02 p {
+        padding-top: 3px;
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    header {
+        margin: 0px 10px;
+    }
+
+    .burger-icon span {
+        visibility: visible;
+        display: block;
+        width: 35px;
+        height: 5px;
+        background-color: #27697c;
+        margin: 6px 0;
+      }
+
+      header nav ul {
+        display: none;
+    }
+
+    #section3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+
+    #section3 article {
+        margin: auto;
+        min-width: 90%;
+    }
+
+    #uppercaseandorange01 p {
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+
+    #uppercaseandorange02 p {
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+
+    #uppercaseandorange03 p {
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+
+    #section4 article {
+        padding-left: 0px;
+        margin: auto;
+        width: 90%;
+    }
+
+    #section5 {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: 0px 20px;
+    }
+
+    #section5 form, #section5 article {
+        margin: auto;
+        min-width: 95%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    #section1>div {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #section1 img {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .logobanniere {
+        max-width: 50%;
+        margin: auto;
+    }
+
+    #section5 form, #section5 article {
+        margin: auto;
+        width: 80%;
+        padding: 10px 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    #uppercaseandorange02 p {
+        padding-top: 5px;
+        padding-left: 50px;
+    }
+
+    #uppercaseandorange02 p {
+        padding-top: 5px;
+        padding-left: 50px;
+    }
+
+    #uppercaseandorange03 p {
+        padding-top: 5px;
+        padding-left: 50px;
+    }
+
+}
