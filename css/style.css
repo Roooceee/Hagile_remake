@@ -252,6 +252,8 @@ header nav a:hover {
     height: 482px;
     display: flex;
     align-items: center;
+    max-width: 1920px;
+    margin: auto;
 }
 
 .divopacity {
