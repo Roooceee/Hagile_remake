@@ -151,6 +151,8 @@ header nav a:hover {
 
 #section2 {
     max-width: 1920px;
+    margin: auto;
+    display: grid;
 }
 
 #section2 p {
